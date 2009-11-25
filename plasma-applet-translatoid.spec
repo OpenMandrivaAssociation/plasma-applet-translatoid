@@ -1,14 +1,13 @@
-%define shortname translatoid1-1
-%define extractedir package
+%define shortname translatoid-1.1
 %define version 1.1
-%define prever	b1
-%define release %mkrel 0.%prever.1
+%define svn svn20091125
+%define release %mkrel 0.%{svn}.1
 
 Name:		plasma-applet-translatoid
 Version:	%version
 Release:	%release
 Summary:	Plasma widget to translate text using Google Translate
-Source0:	http://thecorpo.fr/sacha/translatoid/%{shortname}.tar.gz
+Source0:	http://thecorpo.fr/sacha/translatoid/%{shortname}-%{svn}.tar.gz
 Group:		Graphical desktop/KDE
 License:	LGPLv2
 URL:		http://kde-look.org/content/show.php/translatoid?content=97511
@@ -31,7 +30,7 @@ A plasma widget to translate text using Google Translate
 %{_kde_appsdir}/cmake/modules/FindQJSON.cmake
 
 %prep
-%setup -q -n %extractedir
+%setup -q -n %{shortname}
 
 %build
 %cmake_kde4
