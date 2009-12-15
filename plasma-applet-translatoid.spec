@@ -1,13 +1,13 @@
 %define shortname translatoid-1.1
 %define version 1.1
-%define svn svn20091209
+%define svn svn20091215
 %define release %mkrel 0.%{svn}.1
 
 Name:		plasma-applet-translatoid
 Version:	%version
 Release:	%release
 Summary:	Plasma widget to translate text using Google Translate
-Source0:	http://thecorpo.fr/sacha/translatoid/%{shortname}-%{svn}.tar.gz
+Source0:	http://thecorpo.fr/sacha/translatoid/%{shortname}-%{svn}.tar.bz2
 Group:		Graphical desktop/KDE
 License:	LGPLv2
 URL:		http://kde-look.org/content/show.php/translatoid?content=97511
