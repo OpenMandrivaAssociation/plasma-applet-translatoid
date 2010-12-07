@@ -1,7 +1,7 @@
 %define shortname translatoid-1.1
 %define version 1.1
 %define svn svn20091215
-%define release %mkrel -c %svn 2
+%define release %mkrel -c %svn 3
 
 Name:		plasma-applet-translatoid
 Version:	%version
