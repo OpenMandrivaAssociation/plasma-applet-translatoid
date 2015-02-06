@@ -2,7 +2,7 @@
 
 Name:		plasma-applet-%{oname}
 Version:	1.4
-Release:	1
+Release:	2
 Summary:	Plasma widget to translate text using Google Translate
 Group:		Graphical desktop/KDE
 License:	LGPLv2
