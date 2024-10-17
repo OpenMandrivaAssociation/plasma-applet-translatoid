@@ -6,7 +6,7 @@ Release:	2
 Summary:	Plasma widget to translate text using Google Translate
 Group:		Graphical desktop/KDE
 License:	LGPLv2
-URL:		http://kde-look.org/content/show.php/translatoid?content=97511
+URL:		https://kde-look.org/content/show.php/translatoid?content=97511
 Source0:	http://212.158.157.7/translatoid/%{oname}-%{version}.tar.xz
 BuildRequires:	kdelibs4-devel
 BuildRequires:	pkgconfig(QJson)
